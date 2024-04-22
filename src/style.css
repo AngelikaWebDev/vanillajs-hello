@@ -1,1 +1,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#image {
+  width: 300px;
+  margin-top: 20px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+#generateExcuse {
+  position: fixed;
+  bottom: 20px; /* Ajusta este valor según lo desees */
+  left: 50%; /* Lo centra horizontalmente */
+  transform: translateX(-50%); /* Centra el botón horizontalmente */
+  margin-bottom: 3em;
+}
